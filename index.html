@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="game">
+      <div class="score">
+        <span>Playerscore: <span id="player-score"></span></span>
+        <span>Computerscore: <span id="computer-score"></span></span>
+      </div>
+      <span>Player: </span><span id="player-move"></span>
+      <br />
+      <span>Computer: </span><span id="computer-move"></span>
+      <br />
+      <br />
+      <span>Result: </span><span id="result"></span>
+      <br />
+      <br />
+      <div class="reset-container">
+        <button id="reset-btn"><i class="fas fa-sync"></i>Play again!</button>
+      </div>
+      <button id="rock" class="move">
+        <i class="far fa-hand-rock"></i>ROCK
+      </button>
+      <button id="paper" class="move">
+        <i class="far fa-hand-paper"></i>PAPER
+      </button>
+      <button id="scissors" class="move">
+        <i class="far fa-hand-scissors"></i>SCISSORS
+      </button>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
